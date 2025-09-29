@@ -1,11 +1,28 @@
 # Financial Data Analytics & KPI Automation
 
-A pragmatic, end-to-end finance data pipeline that turns a raw, multi-sheet Excel into clean, auditable KPIs—then hands them to Power BI for decision-making. The point isn’t to look fancy; it’s to be reliable, reproducible, and handoff-ready for BI teams.
+A pragmatic, end-to-end finance data pipeline built in Python.  
+It takes a raw, multi-sheet Excel file, cleans and enriches it with Pandas, computes auditable KPIs, and exports a structured dataset.  
+From there, the results are handed over to Power BI for interactive analysis and decision-making.  
+
+The point isn’t to look fancy; it’s to be reliable, reproducible, and handoff-ready for BI teams.
+
 
 ---
 
 ## Repository at a glance
 
+compta/
+├─ data/
+│ ├─ raw/
+│ │ └─ Data file for students.xlsx # Input (multi-sheet)
+│ └─ processed/
+│ └─ financial_kpis.xlsx # Output (enriched + KPIs)
+├─ dashboard/
+│ ├─ KPIs.pbix # Power BI dashboard (editable)
+│ ├─ KPIs.pdf # Power BI export (read-only)
+│ └─ Dashborad.png # Dashboard preview
+├─ netoyage.ipynb # ETL + KPI notebook
+└─ README.md
 
 ---
 
@@ -56,7 +73,11 @@ The report surfaces the KPI panel, trends by year, and breakdowns by account cla
 
 1. Place the input file at:
 
+data/raw/Data file for students.xlsx
+
 2. Run the notebook `netoyage.ipynb` to generate:
+
+data/processed/financial_kpis.xlsx
 
 3. Open `dashboard/KPIs.pbix` in Power BI Desktop. If needed, repoint the data source to the processed Excel.
 
