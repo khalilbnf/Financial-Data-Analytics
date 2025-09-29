@@ -80,4 +80,4 @@ The report surfaces the KPI panel, trends by year, and breakdowns by account cla
 
 ---
 
-**Note**: this repository is for demonstration/education. Replace or anonymize data according to your organization’s policies.
+**Note**: this repository is for demonstration/education. Replace or anonymize data according to your organization’s policies :)
