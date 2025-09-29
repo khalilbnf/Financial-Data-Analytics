@@ -10,7 +10,7 @@ The point isn’t to look fancy; it’s to be reliable, reproducible, and handof
 ---
 
 ## Repository at a glance
-
+```
 compta/
 ├─ data/
 │ ├─ raw/
@@ -23,7 +23,7 @@ compta/
 │ └─ Dashborad.png # Dashboard preview
 ├─ netoyage.ipynb # ETL + KPI notebook
 └─ README.md
-
+```
 ---
 
 ## What this pipeline does
